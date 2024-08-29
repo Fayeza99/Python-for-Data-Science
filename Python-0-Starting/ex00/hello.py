@@ -12,14 +12,14 @@ for i in range(len(ft_list)):
 
 
 tmp_tuple_list = list(ft_tuple)
-tmp_tuple_list[1] = "France!"
+tmp_tuple_list[1] = "Germany!"
 ft_tuple = tuple(tmp_tuple_list)
 
 
 ft_set.remove("tutu!")
-ft_set.add("Paris!")
+ft_set.add("Heilbronn!")
 
-ft_dict["Hello"] = "42Paris!"
+ft_dict["Hello"] = "42Heilbronn!"
 
 
 #your code here
